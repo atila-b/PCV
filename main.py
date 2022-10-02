@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-from grafo import Grafo
+from grafo.grafo import Grafo
 import time
 from copy import deepcopy
 
@@ -88,7 +88,7 @@ def main():
     for i in range(15):
         grafo1.insere_vertice()
     
-    f1 = open('pd01_d.txt','r')
+    f1 = open('./datasets/pd01_d.txt','r')
     grafo1 = constroi_grafo(grafo1, f1)
     PCV(grafo1, 0)
     
@@ -97,7 +97,7 @@ def main():
     for i in range(17):
         grafo2.insere_vertice()
     
-    f1 = open('gr17_d.txt','r')
+    f1 = open('./datasets/gr17_d.txt','r')
     grafo2 = constroi_grafo(grafo2, f1)
     PCV(grafo2, 0)
 
@@ -106,7 +106,7 @@ def main():
     for i in range(26):
         grafo3.insere_vertice()
     
-    f1 = open('fri26_d.txt','r')
+    f1 = open('./datasets/fri26_d.txt','r')
     grafo3 = constroi_grafo(grafo3, f1)
     PCV(grafo3, 0)
 
@@ -115,7 +115,7 @@ def main():
     for i in range(42):
         grafo4.insere_vertice()
     
-    f1 = open('dantzig42_d.txt','r')
+    f1 = open('./datasets/dantzig42_d.txt','r')
     grafo4 = constroi_grafo(grafo4, f1)
     PCV(grafo4, 1)
 
@@ -123,7 +123,7 @@ def main():
     grafo0 = Grafo()
     for i in range(48):
         grafo0.insere_vertice()
-    f1 = open('att48_d.txt', 'r')
+    f1 = open('./datasets/att48_d.txt', 'r')
     grafo0 = constroi_grafo(grafo0, f1)
     PCV(grafo0, 0)
 
