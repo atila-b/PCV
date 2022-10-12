@@ -1,8 +1,8 @@
-# PCV
-Projeto da disciplina de Grafos, implementação em Python do Problema do Caixeiro Viajante (PCV). O Problema do Caixeiro Viajante (PCV) é um problema que tenta determinar a menor rota para percorrer uma série de cidades (visitando uma única vez cada uma delas), retornando à cidade de origem. Ele é um problema de otimização NP-difícil inspirado na necessidade dos vendedores em realizar entregas em diversos locais (as cidades) percorrendo o menor caminho possível, reduzindo o tempo necessário para a viagem e os possíveis custos com transporte e combustível.
+# Traveling Salesman Problem
+Project of the Graphs discipline, implementation in Python of the Traveling Salesman Problem (TSP). The Traveling Salesman Problem is a problem that tries to determine the shortest route to travel through a series of cities (visiting each one only once), returning to the city of origin. It is an NP-hard optimization problem inspired by the need for sellers to deliver to different locations (cities) in the shortest possible way, reducing travel time and possible transportation and fuel costs.
 
-## Funcionamento
-Para usar o código basta executar o arquivo main e os grafos dos datasets serão processados e printados no terminal. É necessário ter o Python 3+ instalado.
+## Operation
+To use the code, just run the main file and the dataset graphs will be processed and printed in the terminal. You must have Python 3+ installed.
 
-## Referências
-- PCV: https://pt.wikipedia.org/wiki/Problema_do_caixeiro-viajante
+## References
+- TSP: https://en.wikipedia.org/wiki/Travelling_salesman_problem
